@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "partly/split-expenses",
+  "version": "1.0.0",
+  "title": "Partly Split Expenses",
+  "category": "widgets",
+  "icon": "calculator",
+  "description": "Calculate shared expenses and settlement suggestions privately on this page.",
+  "textdomain": "partly-split-expenses-block",
+  "keywords": ["expenses", "split", "calculator"],
+  "attributes": {
+    "locale": { "type": "string", "enum": ["en", "fr", "es"], "default": "en" },
+    "currency": { "type": "string", "enum": ["EUR", "USD", "GBP", "CHF", "CAD"], "default": "EUR" },
+    "showCredit": { "type": "boolean", "default": false }
+  },
+  "supports": { "html": false, "customClassName": false, "align": false },
+  "editorScript": "partly-seb-editor",
+  "script": "partly-seb-runtime",
+  "style": "partly-seb-style"
+}

@@ -1,0 +1,44 @@
+/* Original implementation. SPDX-License-Identifier: GPL-2.0-or-later */
+.psb-calculator { --psb-ink:#172033; --psb-muted:#475569; --psb-brand:#3730a3; box-sizing:border-box; color:var(--psb-ink); background:#fff; border:1px solid #cbd5e1; border-radius:16px; padding:clamp(16px,4vw,28px); margin-block:24px; font-family:system-ui,sans-serif; font-size:16px; line-height:1.5; max-width:760px; }
+.psb-calculator *, .psb-calculator *::before, .psb-calculator *::after { box-sizing:border-box; }
+.psb-calculator h2 { font-size:clamp(22px,4vw,28px); line-height:1.25; margin:0 0 12px; color:var(--psb-ink); }
+.psb-calculator h3 { font-size:19px; margin:24px 0 12px; color:var(--psb-ink); }
+.psb-calculator p { margin:8px 0 14px; }
+.psb-calculator .psb-muted, .psb-calculator small { color:var(--psb-muted); font-size:14px; }
+.psb-calculator .psb-currency { font-weight:600; }
+.psb-calculator .psb-field { margin-block:10px; min-width:0; }
+.psb-calculator label { display:block; font-size:14px; font-weight:600; margin-bottom:5px; overflow-wrap:anywhere; }
+.psb-calculator input, .psb-calculator select { width:100%; min-width:0; min-height:44px; border:1px solid #64748b; border-radius:7px; background:#fff; color:var(--psb-ink); font:inherit; padding:8px 10px; box-shadow:none; }
+.psb-calculator input[type=number] { max-width:150px; }
+.psb-calculator fieldset { border:1px solid #cbd5e1; border-radius:8px; padding:12px; margin:16px 0; min-width:0; }
+.psb-calculator legend { color:var(--psb-ink); font-weight:600; padding-inline:6px; }
+.psb-calculator .psb-shares { display:grid; grid-template-columns:repeat(auto-fit,minmax(125px,1fr)); gap:8px 16px; }
+.psb-calculator .psb-person { display:grid; grid-template-columns:minmax(0,1fr) 44px; gap:5px 10px; align-items:end; }
+.psb-calculator .psb-person label { grid-column:1 / -1; margin:0; }
+.psb-calculator .psb-button { font:inherit; font-size:15px; font-weight:600; cursor:pointer; border:1px solid #64748b; border-radius:8px; padding:10px 14px; min-height:44px; color:var(--psb-ink); background:#fff; white-space:normal; overflow-wrap:anywhere; }
+.psb-calculator .psb-primary { background:var(--psb-brand); border-color:var(--psb-brand); color:#fff; }
+.psb-calculator .psb-button:hover:not(:disabled) { background:#eef2ff; color:#1e1b4b; }
+.psb-calculator .psb-primary:hover:not(:disabled) { background:#312e81; color:#fff; }
+.psb-calculator .psb-button:disabled { cursor:not-allowed; opacity:.55; }
+.psb-calculator :is(button,input,select,summary,a):focus-visible { outline:3px solid #4338ca; outline-offset:3px; }
+.psb-calculator .psb-remove { width:44px; padding:6px; font-size:22px; line-height:1; }
+.psb-calculator .psb-expense { display:flex; align-items:start; gap:10px; border-bottom:1px solid #e2e8f0; padding:10px 0; }
+.psb-calculator details { flex:1; min-width:0; overflow-wrap:anywhere; }
+.psb-calculator summary { cursor:pointer; padding:10px 0; min-height:44px; }
+.psb-calculator .psb-expense ul { margin:0; padding-inline-start:24px; }
+.psb-calculator .psb-error { color:#991b1b; font-weight:600; }
+.psb-calculator .psb-error:empty, .psb-calculator .psb-status:empty { display:none; }
+.psb-calculator .psb-status { color:#334155; font-size:14px; }
+.psb-calculator .psb-result { background:#f8fafc; padding:16px; border:1px solid #cbd5e1; border-radius:10px; margin-block:20px; }
+.psb-calculator .psb-result[hidden] { display:none; }
+.psb-calculator .psb-result h3 { margin-top:0; }
+.psb-calculator .psb-table-wrap { overflow:auto; max-width:100%; }
+.psb-calculator table { border-collapse:collapse; width:100%; font-size:14px; margin:10px 0; }
+.psb-calculator caption { text-align:start; font-weight:600; margin-block:8px; }
+.psb-calculator th, .psb-calculator td { border-bottom:1px solid #cbd5e1; text-align:start; padding:9px 8px; overflow-wrap:anywhere; max-width:220px; }
+.psb-calculator td { font-variant-numeric:tabular-nums; white-space:nowrap; }
+.psb-calculator .psb-transfers { padding-inline-start:24px; overflow-wrap:anywhere; }
+.psb-calculator .psb-transfers li { margin-block:8px; }
+.psb-calculator .psb-reset { display:block; margin-top:16px; }
+.psb-calculator .psb-credit { display:inline-block; margin-top:20px; color:var(--psb-brand); text-decoration:underline; font-size:14px; }
+@media (prefers-reduced-motion:reduce) { .psb-calculator * { scroll-behavior:auto; } }
