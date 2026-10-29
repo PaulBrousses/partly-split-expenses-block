@@ -8,6 +8,10 @@ A free, native WordPress calculator for shared expenses: multiple payers, equal 
 
 **Version 1.0.0 — original installable ZIP:** [Download from Partly](https://partly-app.com/downloads/partly-split-expenses-block-1.0.0.zip)
 
+**Use online before installing:** [English](https://partly-app.com/en/tools/split-expenses-calculator/) · [Français](https://partly-app.com/fr/tools/split-expenses-calculator/) · [Español](https://partly-app.com/es/tools/split-expenses-calculator/)
+
+These links open Partly’s separate web calculator for up to **12 people**, without a Partly account. They do not run the WordPress block, which supports **2–30 participants**, or transfer entries between the two tools.
+
 **WordPress.org status on 29 October 2026:** submitted, automated scanning passed, manual review pending. This is an independent direct distribution; it does not claim approval or listing in the WordPress Plugin Directory.
 
 ![Native WordPress block — fictional French example](docs/wordpress-fictional-example-fr.jpg)
@@ -40,6 +44,10 @@ Add Alice, Ben and Camille. Alice pays **18.34 EUR** for everyone (weights 1/1/1
 
 [English guide](https://partly-app.com/en/integrations/wordpress/)
 
+### For a shared space
+
+A flatshare kitchen, residence or guest welcome area can use the free [A4 PDF poster](https://partly-app.com/downloads/community-kit/partly-community-calculator-en-a4.pdf). Its QR opens the separate web calculator for up to 12 people; it does not install WordPress. Find the preview and printing instructions in the [community kit](https://partly-app.com/en/integrations/#community-kit).
+
 ## Français
 
 ### Installer manuellement
@@ -68,6 +76,10 @@ Au 29 octobre 2026 : soumis à WordPress.org, contrôle automatique réussi, rev
 
 [Guide français](https://partly-app.com/fr/integrations/wordpress/)
 
+### Pour un lieu partagé
+
+Une cuisine de colocation, une résidence ou un accueil de séjour peut utiliser cette [affiche PDF A4 gratuite](https://partly-app.com/downloads/community-kit/partly-community-calculator-fr-a4.pdf). Son QR ouvre le calculateur web distinct, pour 12 personnes maximum ; il n’installe pas WordPress. L’aperçu et les conseils d’impression sont dans le [kit communautaire](https://partly-app.com/fr/integrations/#community-kit).
+
 ## Español
 
 ### Instalar manualmente
@@ -95,6 +107,10 @@ Alice paga 18,34 EUR para Alice, Ben y Camille (pesos 1/1/1). Ben paga 10,01 EUR
 A 29 de octubre de 2026: enviado a WordPress.org, análisis automático superado y revisión manual pendiente. No se afirma aprobación ni ficha pública en el directorio.
 
 [Guía en español](https://partly-app.com/es/integrations/wordpress/)
+
+### Para un espacio compartido
+
+La cocina de un piso compartido, una residencia o la recepción de un alojamiento puede usar este [cartel PDF A4 gratuito](https://partly-app.com/downloads/community-kit/partly-community-calculator-es-a4.pdf). Su QR abre la calculadora web independiente, para un máximo de 12 personas; no instala WordPress. La vista previa y los consejos de impresión están en el [kit comunitario](https://partly-app.com/es/integrations/#community-kit).
 
 ## Integrity / Intégrité / Integridad
 
