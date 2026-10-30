@@ -8,6 +8,12 @@ A free, native WordPress calculator for shared expenses: multiple payers, equal 
 
 **Version 1.0.0 — original installable ZIP:** [Download from Partly](https://partly-app.com/downloads/partly-split-expenses-block-1.0.0.zip)
 
+### Try the public form before installing
+
+[Open the block’s public form demo — English, Français, Español](https://partly-app.com/downloads/wordpress-playground/demo.html)
+
+This demo uses the unchanged version 1.0.0 front-end form for **2–30 participants**, with fictional examples to enter yourself. It does not run WordPress or simulate the Gutenberg editor. After installation, you configure the language, currency and optional credit inside WordPress. Reloading clears your calculator entries.
+
 **Use online before installing:** [English](https://partly-app.com/en/tools/split-expenses-calculator/) · [Français](https://partly-app.com/fr/tools/split-expenses-calculator/) · [Español](https://partly-app.com/es/tools/split-expenses-calculator/)
 
 These links open Partly’s separate web calculator for up to **12 people**, without a Partly account. They do not run the WordPress block, which supports **2–30 participants**, or transfer entries between the two tools.
